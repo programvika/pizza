@@ -1,0 +1,61 @@
+.wrapper_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .logo {
+        display: flex;
+            .logo_img {
+            width: 250px;
+            height: 46px;
+            padding-right: 40px;
+            }
+        .time {
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 1.2;
+            font-family: Nunito;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            i {
+                display: inline-block;
+                width: 3px;
+                height: 3px;
+                margin: 3px 6px;
+                border-radius: 3px;
+                background-color: #000;
+                align-self: center;
+            }
+            .star{
+                width: 16px;
+                height: 16px;
+            }
+            .rating {
+                display: flex;
+            }
+        }
+    }
+    .auth{
+        align-items:center;
+        justify-content: center;
+        display: flex;
+        .btn_auth {
+            height: 32px;
+            padding: 8px 16px;
+            font-size: 14px;
+            line-height: 16px;
+            background-color: #f3f3f7;
+            color: #5c6370;
+            border: none;
+            border-radius: 13px;
+            font-family: Nunito;
+            cursor: pointer;
+            margin-left: 10px;
+            transition: all ease 0.3;
+            &:hover {
+                color: rgb(0, 0, 0);
+                background-color: #f4f4f7;
+            }
+        }
+    }
+}

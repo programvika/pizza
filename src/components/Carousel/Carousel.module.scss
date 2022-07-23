@@ -1,0 +1,24 @@
+    .carousel {
+    cursor: grab;
+    overflow: hidden;
+    .inner_carousel {
+        display: flex;
+        .item {
+        margin-left: 15px;
+        border: 2px solid #E86100;
+        border-radius: 13px;
+        width: 203px;
+        height: 250px;
+        padding: 1px 5px;
+        align-items: center;
+        display: flex;
+        align-self: center;
+        img {
+            border-radius: 13px;
+            width: 191px;
+            height: 238px;
+            pointer-events: none;
+        }
+        }
+    }
+    }

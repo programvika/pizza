@@ -1,0 +1,22 @@
+.wrapper {
+  background-color: rgb(226, 176, 136);
+  padding: 50px 100px;
+  border-radius: 30px;
+  text-align: center;
+  .header {
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    img {
+        margin: 0 20px;
+        width: 100px;
+
+    }
+  }
+  .desc {
+    align-items:center;
+    font-size: 30px;
+  }
+}
